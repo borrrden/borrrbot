@@ -61,7 +61,7 @@ internal sealed class Bot : IBot
         });
     }
 
-    public Bot([NotNull]string botName, [NotNull]string channel)
+    public Bot(string botName, string channel)
     {
         BotName = botName;
         Channel = channel;
